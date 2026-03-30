@@ -1,0 +1,15 @@
+{
+  "name": "silent-test-execution",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm run test --workspaces"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vitest": "^1.4.0",
+    "@types/node": "^20.0.0"
+  }
+}
